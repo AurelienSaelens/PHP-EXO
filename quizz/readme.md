@@ -3,20 +3,20 @@
 Try to answer these questions. Some might require you to investigate. Here is a great tool for that : [http://phptester.net](http://phptester.net). Use it also to check whether you got it right. 
 
 - PHP code must sit inside specific tags. Which one(s) ?
-	[]  `<?php>...</?>`  
-	[]  `<script>...</script> ` 
-	[] `<&>...</&> ` 
-	[x] `<?php...?>`
+	- []  `<?php>...</?>`  
+	- []  `<script>...</script> ` 
+	- [] `<&>...</&> ` 
+	- [x] `<?php...?>`
 
 - Which of the following variables **do not** have a valid name ? 
   
-	[] `myvar`
-	[x] `$myvar`
-	[x] `$var5`
-	[x] `$_myvar`
-	[x] `$_5var`
-	[] `$__élément1`
-	[] `$hotel4*`
+	- [] `myvar`
+	- [x] `$myvar`
+	- [x] `$var5`
+	- [x] `$_myvar`
+	- [x] `$_5var`
+	- [] `$__élément1`
+	- [] `$hotel4*`
 
 
 - In which variable is stored the data sent via an html form using the GET method ? $GET_['data']
@@ -25,11 +25,11 @@ Try to answer these questions. Some might require you to investigate. Here is a 
 - What character must be at the end of each line of php code ? ";"
 - What will return this line: `echo "Hello" + " World";` ? Why ? ERROR because it's not number.
 - What is the right syntax :  
- 		[] `<?php echo Hello World; ?>`  
-		[] `<?php echo("Hello world"); ?>`  
-		[x] `<?php echo "Hello World": ?>`  
-		[x] `<?php echo 'Hello World'; ?>`  
-		[x] `<?= "Hello World"; ?>` 
+ 		- [] `<?php echo Hello World; ?>`  
+		- [] `<?php echo("Hello world"); ?>`  
+		- [x] `<?php echo "Hello World": ?>`  
+		- [x] `<?php echo 'Hello World'; ?>`  
+		- [x] `<?= "Hello World"; ?>` 
  
 - What is the result of this script ? Why ?
 
@@ -40,10 +40,10 @@ echo ($hour == $Hour) ? "yes": "not correct"; Not correct.
 ```
 
 - What is the correct way to write comments in PHP ?
-	[] `// This is a comment `
-	[x]`/* This is a comment */ `  
-	[] `*/ This is a comment /* `  
-	[x] `# This is a comment`  
+	- [] `// This is a comment `
+	- [x]`/* This is a comment */ `  
+	- [] `*/ This is a comment /* `  
+	- [x] `# This is a comment`  
 
 
 -  What is the name of this type of operator in the following example ?
