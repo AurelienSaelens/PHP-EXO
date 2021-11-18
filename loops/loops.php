@@ -1,21 +1,14 @@
-<?php /*
+<?php /* 
     $pronouns = array('I', 'You', 'He/She','We', 'You', 'They');
 
     foreach($pronouns as $pronouns) {
-        if($pronouns == 'I'){
-            echo "$pronouns code <br>";}
-       elseif($pronouns == 'YOU'){
-            echo "$pronouns code <br>";}
-       elseif($pronouns == 'He/She'){
-            echo "$pronouns codes <br>";}
-       elseif($pronouns == 'We'){
-            echo "$pronouns code <br>";}
-       elseif($pronouns == 'You'){
-            echo "$pronouns code <br>";}
-       elseif($pronouns == 'They'){
-            echo "$pronouns code <br>";}
-    }
-*/ ?>
+         if($pronouns === 'He/She'){
+              echo $pronouns . " codes <br>";
+         }
+         else{
+         echo $pronouns . " code <br>";
+    }}
+ */ ?>
 <?php /*
     $number_of_line = 1;
     while ($number_of_line <= 100) {
