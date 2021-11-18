@@ -41,7 +41,7 @@ echo ($hour == $Hour) ? "yes": "not correct"; Not correct.
 
 - What is the correct way to write comments in PHP ?
 	- [ ] `// This is a comment `
-	- [x]`/* This is a comment */ `  
+	- [x] `/* This is a comment */ `  
 	- [ ] `*/ This is a comment /* `  
 	- [x] `# This is a comment`  
 
